@@ -1,4 +1,3 @@
-// src/components/QRCodeScanner.jsx
 import { BrowserMultiFormatReader } from "@zxing/library";
 import React, { useEffect, useRef } from "react";
 
