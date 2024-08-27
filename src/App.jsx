@@ -1,5 +1,6 @@
+// src/App.jsx
 import React from "react";
-import AppRoutes from "./routes"; // Ensure this path is correct
+import AppRoutes from "./components/Approutes";
 
 const App = () => {
   return (
