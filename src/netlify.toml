@@ -1,0 +1,9 @@
+[build]
+  # Directory where the build command output is stored
+  publish = "dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
