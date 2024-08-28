@@ -12,6 +12,7 @@ const AppRoutes = () => {
       <Route path="/" element={<QRCodeGenerator />} />
       <Route path="/qrcode" element={<QRCodePage />} />
       <Route path="/scanned-data" element={<ScannedDataDisplay />} />
+      <Route path="/scanner" element={<QRCodeScanner />} />
 
       {/* <Route path="/" element={<QRCodeGenerator />} />
       <Route path="/qrcode" element={<QRCodePage />} />
