@@ -151,7 +151,9 @@ const QRCodeGenerator = () => {
 
   return (
     <div className="p-6 max-w-xl mx-auto bg-white rounded-lg shadow-lg">
-      <h1 className="text-2xl font-bold mb-4 text-center">QR Code Generator</h1>
+      <h1 className="text-2xl font-bold mb-4 text-center">
+        QR Profile Generator
+      </h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         {Object.entries({
           name: FaUser,
