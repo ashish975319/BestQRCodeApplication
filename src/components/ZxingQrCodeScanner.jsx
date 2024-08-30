@@ -32,7 +32,7 @@ const ZxingQrCodeScanner = () => {
   return (
     <div className="flex flex-col h-screen bg-gray-100">
       <header className="bg-blue-600 text-white text-center p-4 shadow-md">
-        <h1 className="text-2xl font-semibold">ZXing QR Code Scanner</h1>
+        <h1 className="text-2xl font-semibold">Irix QR Code Scanner</h1>
       </header>
 
       <main className="flex-1 flex flex-col justify-center items-center p-4">
