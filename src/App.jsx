@@ -5,7 +5,7 @@ import AppRoutes from "./components/Approutes";
 const App = () => {
   return (
     <div className="App min-h-screen bg-gray-100">
-      <AppRoutes /> {/* Include the routing component */}
+      <AppRoutes />
     </div>
   );
 };
