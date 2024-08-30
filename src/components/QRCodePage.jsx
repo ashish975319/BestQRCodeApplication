@@ -155,7 +155,7 @@ const QRCodePage = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <div className="p-8 max-w-3xl mx-auto bg-gray-50 rounded-lg shadow-xl">
+      <div className="p-8 max-w-3xl mx-auto bg-gradient-to-r from-indigo-200 from-10% via-sky-200 via-30% to-emerald-300 to-90% rounded-lg shadow-xl">
         <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
           Your QR Code
         </h1>
@@ -178,13 +178,13 @@ const QRCodePage = () => {
         <div className="flex justify-center space-x-6 mb-8">
           <button
             onClick={downloadQRCode}
-            className="bg-blue-600 text-white py-3 px-6 rounded-md flex items-center hover:bg-blue-700 transition duration-300"
+            className="bg-blue-600 text-white py-1 px-2 rounded-md flex items-center hover:bg-blue-700 transition duration-300"
           >
             <FaDownload className="mr-2" /> Download QR Code
           </button>
           <button
             onClick={() => navigate("/")}
-            className="bg-blue-600 text-white py-3 px-6 rounded-md hover:bg-blue-700 transition duration-300"
+            className="bg-blue-600 text-white py-1 px-2 rounded-md hover:bg-blue-700 transition duration-300"
           >
             Back to QR Code Generator
           </button>
@@ -198,7 +198,7 @@ const QRCodePage = () => {
           ) : (
             <button
               onClick={handleStartScanning}
-              className="bg-green-600 text-white py-3 px-6 rounded-md hover:bg-green-700 transition duration-300"
+              className="bg-green-600 text-white py-1 px-2 rounded-md hover:bg-green-700 transition duration-300"
             >
               Start Scanning
             </button>

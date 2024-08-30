@@ -48,7 +48,7 @@ const QRCodeGenerator = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <div className="p-6 max-w-xl mx-auto bg-white  rounded-lg mb-20 mt-5 shadow-lg">
+      <div className="p-6 max-w-xl mx-auto   bg-gradient-to-r from-indigo-200 from-10% via-sky-200 via-30% to-emerald-300 to-90% ... rounded-lg mb-20 mt-5 shadow-lg">
         <h1 className="text-2xl font-bold mb-4 text-center">
           QR Profile Generator
         </h1>
